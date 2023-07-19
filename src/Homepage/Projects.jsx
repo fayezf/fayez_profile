@@ -5,28 +5,24 @@ import { FaArrowCircleRight } from "react-icons/fa";
 const Projects = () => {
  const projects = [
     {
-        image: 'https://i.ibb.co/2YQzTND/project1.png',
-        link: 'https://sci-fi-toys.web.app/'
+        image: 'https://i.ibb.co/Jv2BJjn/martial-arts.png',
+        link: 'https://martial-arts-69e3f.web.app/'
     },
     {
-        image: 'https://i.ibb.co/KrvRGZR/project2.png',
-        link: 'https://foreign-language-camping.web.app/'
+        image: 'https://i.ibb.co/J75tGhB/kid-toy.png',
+        link: 'https://education-learning-toys.web.app/'
     },
     {
-        image: 'https://i.ibb.co/FxCw1wW/project3.png',
-        link: 'https://job-hunter-app.netlify.app/'
+        image: 'https://i.ibb.co/k0p4ppw/chef-hunter.png',
+        link: 'https://chef-hunter-client-6efb9.web.app/'
     },
     {
-        image: 'https://i.ibb.co/t4RJ8Hn/project4.png',
-        link: 'https://chef-hunter-5ddb4.web.app/'
+        image: 'https://i.ibb.co/HGxHjBJ/job-hunter.png',
+        link: 'http://joyous-morning.surge.sh/'
     },
     {
-        image: 'https://i.ibb.co/qjjsmBf/project5.png',
-        link: 'https://nmcsakib.netlify.app/'
-    },
-    {
-        image: 'https://i.ibb.co/b3ZV1d5/project6.png',
-        link: 'https://list-of-ai.netlify.app/'
+        image: 'https://i.ibb.co/6PxZRNn/ai-universe.png',
+        link: 'https://unequaled-art.surge.sh/'
     },
  ]
 return (

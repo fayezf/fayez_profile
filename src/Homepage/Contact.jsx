@@ -1,6 +1,6 @@
 import { useRef } from "react";
 import SectionSubTitle from "../Components/SectionSubTitle";
-import {FaFacebook, FaGithub, FaLinkedin, FaStackOverflow, FaTwitter} from 'react-icons/fa';
+import {FaFacebook, FaGithub, FaInstagram, FaLinkedin} from 'react-icons/fa';
 import emailjs from '@emailjs/browser';
 const Contact = () => {
 
@@ -9,7 +9,7 @@ const Contact = () => {
     const sendEmail = (e) => {
       e.preventDefault();
   
-      emailjs.sendForm('service_c4m483q', 'template_lx73o3c', form.current, 'iO3UtMwx_ea2BEoW3')
+      emailjs.sendForm('service_kzch1kw', 'template_51xdnua', form.current, 'WYXuP9WUzaqzl_jrP')
         .then((result) => {
             if(result.text === 'OK'){
 
@@ -37,11 +37,10 @@ return (
    <button className="px-3 active:bg-[#ffffff73] py-2 w-24 text-white elite social rounded-lg mt-4">Send</button>
    </form>
    <div className="flex flex-wrap md:flex-nowrap pt-5 gap-4 justify-center items-center">
-    <a href="http://www.facebook.com/sakib.sjs" target="_blank"  rel="noreferrer" className=" social"><FaFacebook/></a>
-    <a href="https://twitter.com/nmcakib01" target="_blank"  rel="noreferrer" className=" social"><FaTwitter/></a>
-    <a href="https://github.com/nmcsakib" target="_blank"  rel="noreferrer" className=" social"><FaGithub/></a>
-    <a href="https://www.linkedin.com/in/nmc-sakib/" target="_blank"  rel="noreferrer" className=" social"><FaLinkedin/></a>
-    <a href="https://stackoverflow.com/users/20857380/nmc-sakib" target="_blank"  rel="noreferrer" className=" social"><FaStackOverflow/></a>
+    <a href="https://www.facebook.com/fayez.chowdhury.7374/" target="_blank"  rel="noreferrer" className=" social"><FaFacebook/></a>
+    <a href="https://github.com/fayezf" target="_blank"  rel="noreferrer" className=" social"><FaGithub/></a>
+    <a href="https://www.linkedin.com/in/muhammad-fayez-48989127b/" target="_blank"  rel="noreferrer" className=" social"><FaLinkedin/></a>
+    <a href="https://www.instagram.com/mohammad_fayez_ahmed/" target="_blank"  rel="noreferrer" className=" social"><FaInstagram/></a>
     
    </div>
     </div>

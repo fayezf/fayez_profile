@@ -59,11 +59,11 @@ return (
 		</div>
 	</div>
 	<div className="flex items-center p-2 mt-12 space-x-4 justify-self-end" >
-		<img src='https://i.ibb.co/5KsDTPR/profile.png' alt="" className="w-12 h-12 rounded-lg bg-gray-500" />
+		<img src='https://i.ibb.co/0fdGLNw/img.png' alt="" className="w-12 h-12 rounded-lg bg-gray-500" />
 		<div>
-			<h2 className="text-lg font-semibold tracking-wider">SAKIB</h2>
+			<h2 className="text-lg font-semibold tracking-wider">FAYEZ</h2>
 			<span className="flex items-center space-x-1">
-				<a rel="noopener noreferrer" target='_blank' href="https://drive.google.com/file/d/16ayRIwLRvgONEPyPL1mAraKOQkQPoTMl/view?usp=drive_link" className="text-xs hover:underline text-gray-400">See resume</a>
+				<a rel="noopener noreferrer" target='_blank' href="https://drive.google.com/file/d/1PcA0NZYqNKkj68BLmc1FHeYI38iTkhyK/view?usp=sharing" className="text-xs hover:underline text-gray-400">See resume</a>
 			</span>
 		</div>
 	</div>
