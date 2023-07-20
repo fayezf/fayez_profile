@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import Button from '../Components/Button';
 import profile from '../assets/profile.png'
-import resume from '../assets/mern_resume.pdf'
+import resume from '../assets/fayez-resume.docx.pdf'
 import { useEffect } from 'react';
 import Typed from 'typed.js';
 
@@ -43,7 +43,7 @@ return (
         </aside>
     </div>
 <div className="flex justify-center items-center flex-col"> 
-<div className='mt-5 bg-gray-700 md:-mt-16 rounded-3xl inline-block'>
+<div className='mt-5 bg-gray-700 md:-mt-16 rounded-2xl inline-block'>
     <img className='w-40 md:w-64' src={profile} alt="" />
 </div>
 
@@ -52,7 +52,7 @@ return (
 I am curious about <br /> <span ref={el}>React.js</span>
 </p>
 <span className='mt-5'>
-<a href={resume} >
+<a href={resume} download>
 <Button text='My resume'/>
 </a>
 </span>
