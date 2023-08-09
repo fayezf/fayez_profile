@@ -63,7 +63,7 @@ return (
 		<div>
 			<h2 className="text-lg font-semibold tracking-wider">FAYEZ</h2>
 			<span className="flex items-center space-x-1">
-				<a rel="noopener noreferrer" target='_blank' href="https://docs.google.com/document/d/1iyxgnV3IXjMEOI1GvAa8k_9rzpw1nPtu/edit?usp=sharing&ouid=113917990147130837024&rtpof=true&sd=true" className="text-xs hover:underline text-gray-400">See resume</a>
+				<a rel="noopener noreferrer" target='_blank' href="https://docs.google.com/document/d/1B91Au0d1QBhMpPHPcQNybIN19qOHP3udw01eeIOunzg/edit?usp=sharing" className="text-xs hover:underline text-gray-400">See resume</a>
 			</span>
 		</div>
 	</div>

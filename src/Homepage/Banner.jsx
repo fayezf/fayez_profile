@@ -2,7 +2,7 @@
 import { useRef } from 'react';
 import Button from '../Components/Button';
 import profile from '../assets/profile.png'
-import resume from '../assets/fayez-resume.docx.pdf'
+import resume from '../assets/mern-resume.pdf'
 import { useEffect } from 'react';
 import Typed from 'typed.js';
 
