@@ -5,6 +5,14 @@ import { FaArrowCircleRight } from "react-icons/fa";
 const Projects = () => {
  const projects = [
     {
+        image: 'https://i.ibb.co/cJbVJsH/jerins-parlour.png',
+        link: 'https://jerins-parlour-f2780.web.app/'
+    },
+    {
+        image: 'https://i.ibb.co/rdVvqSV/job-hunting.png',
+        link: 'https://job-hunting-8d71c.web.app/'
+    },
+    {
         image: 'https://i.ibb.co/Jv2BJjn/martial-arts.png',
         link: 'https://martial-arts-69e3f.web.app/'
     },
